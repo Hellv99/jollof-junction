@@ -104,4 +104,8 @@ button[type="submit"]:hover {
   .form-group {
     width: 89%;
   }
+
+  .contact-form button {
+    width: 89%;
+  }
 }
