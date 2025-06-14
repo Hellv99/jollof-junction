@@ -102,6 +102,6 @@ button[type="submit"]:hover {
 
 @media (max-width: 767px) {
   .form-group {
-    width: 90%;
+    width: 89%;
   }
 }
