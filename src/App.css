@@ -10,13 +10,3 @@ body {
 html {
   scroll-behavior: smooth;
 }
-
-#menu {
-  background-color: #e6f7e9;
-  height: 100vh;
-}
-
-.contact-us {
-  background-color: #e3f2fd;
-  height: 100vh;
-}
