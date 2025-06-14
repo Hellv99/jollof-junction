@@ -41,6 +41,12 @@
   background-color: orange;
 }
 
+.hero-section button:hover {
+  background-color: transparent;
+  transition: ease-out 0.3s;
+  color: #e67e22;
+}
+
 @media (max-width: 768px) {
   img {
     max-width: 100%;

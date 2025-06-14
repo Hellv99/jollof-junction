@@ -14,7 +14,7 @@ const About = () => {
         </div>
 
         <div className="features-1">
-          <img src="/src/assets/jollof1.jpg" alt="j" />
+          <img src="/src/img/jollof1.jpg" />
           <div className="text-1">
             <h1>Custom Jollof Creations</h1>
             <p>
