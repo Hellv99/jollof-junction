@@ -19,10 +19,10 @@ const Header = () => {
         <nav className="navbar">
           <ul>
             <li>
-              <a href="#about">About</a>
+              <a href="#section-2">About</a>
             </li>
             <li>
-              <a href="#menu">Menu</a>
+              <a href="#menu-section">Menu</a>
             </li>
             <li>
               <a href="#contact">Contact</a>

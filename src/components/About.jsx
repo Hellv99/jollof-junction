@@ -24,7 +24,7 @@ const About = () => {
           </div>
         </div>
         <div className="features-2">
-          <img src="/src/assets/jollof4.jpg" alt="" srcset="" />{" "}
+          <img src="/src/assets/jollof4.jpg" />
           <div className="text-2">
             <h1>Cultural jollof Nights</h1>
             <p>
