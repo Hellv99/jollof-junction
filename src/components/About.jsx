@@ -30,12 +30,12 @@ const About = () => {
             </p>
           </div>
         </div>
-        <div className="features-2">
+        <div className="features-1">
           <img
             src={jollof4 || "/public/assets/jollof4.jpg"}
             alt="Jollof Rice"
           />
-          <div className="text-2">
+          <div className="text-1">
             <h1>Cultural jollof Nights</h1>
             <p>
               Join us every weekend for themed nights that celebrates different
@@ -43,17 +43,17 @@ const About = () => {
             </p>
           </div>
         </div>
-        <div className="features-3">
+        <div className="features-1">
           <img
             src={jollof5 || "/public/assets/jollof5.jpg"}
             alt="Jollof Rice"
           />
-          <div className="text-3">
+          <div className="text-1">
             <h1>Jollof Workshops</h1>
             <p>
               Learn how to make the perfect jollof rice from our professional
               chefs in interactive cooking classes!
-            </p>{" "}
+            </p>
           </div>
         </div>
       </div>

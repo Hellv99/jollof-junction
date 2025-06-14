@@ -96,7 +96,12 @@ button[type="submit"]:hover {
   }
 
   .contact-container {
-    margin-top: 70rem;
     max-width: 100%;
+  }
+}
+
+@media (max-width: 767px) {
+  .form-group {
+    width: 90%;
   }
 }

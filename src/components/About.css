@@ -9,6 +9,11 @@ div .about {
   margin-bottom: 20px;
 }
 
+.about p {
+  text-align: center;
+  font-size: 24px;
+}
+
 .about-us {
   background-color: #ffe4b5;
   min-height: 100vh;
@@ -37,23 +42,18 @@ div .about {
   border-radius: 8px;
 }
 
-.text-1,
-.text-2,
-.text-3 {
+.text-1 {
+  text-align: justify;
   flex: 1;
 }
 
-.text-1 h1,
-.text-2 h1,
-.text-3 h1 {
+.text-1 h1 {
   font-size: 1.75rem;
   margin-bottom: 1rem;
 }
 
-.text-1 p,
-.text-2 p,
-.text-3 p {
-  font-size: 1rem;
+.text-1 p {
+  font-size: 1.3rem;
   line-height: 1.6;
 }
 
@@ -62,16 +62,31 @@ div .about {
     max-width: 100%;
   }
 
-  .features-1,
-  .features-2,
-  .features-3 {
+  .features-1 {
     max-width: 100%;
   }
 
-  .features-1 img,
-  .features-2 img,
-  .features-3 img {
+  .features-1 img {
     height: 190px;
     width: 300px;
+  }
+}
+
+@media (max-width: 767px) {
+  .about {
+    max-width: 300px;
+  }
+  .about p {
+    font-size: 16px;
+  }
+
+  .features-1 {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .text-1 p {
+    text-align: justify;
+    font-size: 16px;
   }
 }
