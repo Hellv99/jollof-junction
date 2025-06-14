@@ -1,5 +1,6 @@
 import React from "react";
 import "./About.css";
+import jollof1 from "/public/assets/jollof1.jpg";
 const About = () => {
   return (
     <section className="section-2">
@@ -14,7 +15,8 @@ const About = () => {
         </div>
 
         <div className="features-1">
-          <img src="/public/assets/jollof1.jpg" />
+          <img src={jollof1 || "/public/assets/jollof1.jpg"} />
+
           <div className="text-1">
             <h1>Custom Jollof Creations</h1>
             <p>
