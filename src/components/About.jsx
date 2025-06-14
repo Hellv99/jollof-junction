@@ -14,7 +14,7 @@ const About = () => {
         </div>
 
         <div className="features-1">
-          <img src="public/assets/jollof1.jpg" />
+          <img src="/public/assets/jollof1.jpg" />
           <div className="text-1">
             <h1>Custom Jollof Creations</h1>
             <p>
@@ -24,7 +24,7 @@ const About = () => {
           </div>
         </div>
         <div className="features-2">
-          <img src="public/assets/jollof4.jpg" />
+          <img src="/public/assets/jollof4.jpg" />
           <div className="text-2">
             <h1>Cultural jollof Nights</h1>
             <p>
@@ -34,7 +34,7 @@ const About = () => {
           </div>
         </div>
         <div className="features-3">
-          <img src="/src/assets/jollof5.jpg" alt="" />
+          <img src="/public/assets/jollof5.jpg" alt="" />
           <div className="text-3">
             <h1>Jollof Workshops</h1>
             <p>
