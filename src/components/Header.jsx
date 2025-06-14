@@ -13,6 +13,13 @@ const Header = () => {
     return () => window.removeEventListener("scroll", handleScroll);
   }, []);
 
+  const scrollToSection = (sectionId) => {
+    const element = document.getElementById(sectionId);
+    if (element) {
+      element.scrollIntoView({ behavior: "smooth" });
+    }
+  };
+
   return (
     <header className={isScrolled ? "scrolled" : ""}>
       <div className="header-container">
@@ -20,18 +27,31 @@ const Header = () => {
         <nav className="navbar">
           <ul>
             <li>
-              <a href="#section-2">About</a>
+              <button
+                onClick={() => scrollToSection("about")}
+                className="nav-link"
+              >
+                About
+              </button>
             </li>
             <li>
-              <a href="#menu-section">Menu</a>
+              <button
+                onClick={() => scrollToSection("menu")}
+                className="nav-link"
+              >
+                Menu
+              </button>
             </li>
             <li>
-              <a href="#contact">Contact</a>
+              <button
+                onClick={() => scrollToSection("contact")}
+                className="nav-link"
+              >
+                Contact
+              </button>
             </li>
             <li>
-              <a href="#" className="order-btn">
-                Order Now
-              </a>
+              <button className="order-btn">Order Now</button>
             </li>
           </ul>
         </nav>

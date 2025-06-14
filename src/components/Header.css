@@ -47,7 +47,7 @@ header h1 {
   margin: 0;
 }
 
-.navbar a {
+.navbar button {
   text-decoration: none;
   color: #fff;
   font-size: 1.1rem;
@@ -58,7 +58,7 @@ header h1 {
   position: relative;
 }
 
-.navbar a::after {
+.navbar button::after {
   content: "";
   position: absolute;
   width: 0;
@@ -70,11 +70,12 @@ header h1 {
   transform: translateX(-50%);
 }
 
-.navbar a:hover::after {
+.navbar button:hover::after {
   width: 70%;
 }
 
-.navbar a:hover {
+.navbar button:hover {
+  text-decoration: none;
   color: #e67e22;
 }
 
@@ -131,4 +132,17 @@ li a {
 li a:hover {
   background-color: rgba(255, 255, 255, 0.253);
   color: black;
+}
+.nav-link {
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-size: inherit;
+  padding: 0;
+  color: inherit;
+  font-family: inherit;
+}
+
+.nav-link:hover {
+  text-decoration: underline;
 }
